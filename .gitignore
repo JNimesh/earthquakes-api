@@ -1,0 +1,4 @@
+/.idea/*
+nodemodules/*
+dist/*
+coverage/*
