@@ -1,0 +1,11 @@
+{
+  "AWS_REGION": "us-east-1",
+  "AWS_ACCESS_KEY_ID": "dummy",
+  "AWS_SECRET_ACCESS_KEY": "dummy",
+  "EARTHQUAKES_DYNAMO_DB_TABLE": "Earthquakes",
+  "REQUESTS_DYNAMO_DB_TABLE": "Requests",
+  "DEV_MODE_DYNAMODB_ENDPOINT": "http://localhost:8000",
+  "EARTHQUAKE_DATA_URL": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson",
+  "JWT_SECRET": "SECRET_KEY",
+  "APP_PORT": 3000
+}
