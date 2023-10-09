@@ -47,8 +47,12 @@ To run the application, follow the steps below:
   ``` npm run build```
 2. Start the application:
 ```npm run start```
-
 Note: You can override the APP_PORT environment variable to run the app on a desired port. By default, it will run on port 3000.
+
+## Login to the application
+Please use following credentials
+- **Username**: admin
+- **Password**: password123
 
 ## Running Tests
 
