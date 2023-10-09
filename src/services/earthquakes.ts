@@ -76,7 +76,7 @@ export const storeEarthquakes = async (data: Feature[]): Promise<boolean> => {
         );
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
-        unprocessedItems = response.UnprocessedItems;
+        unprocessedItems = response.UnprocessedItems ?? {};
         if (Object.keys(unprocessedItems).length === 0) {
           break;
         }
