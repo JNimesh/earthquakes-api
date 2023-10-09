@@ -142,6 +142,13 @@ router.get("/", persistAPIRequestData, async (req, res) => {
     return;
   }
 
+  if (startTime && endTime && startTime > endTime) {
+    res
+      .status(400)
+      .json(createErrorResponse("startTime must be less than endTime"));
+    return;
+  }
+
   try {
     const data = await getEarthquakes({
       startTime,
