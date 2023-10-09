@@ -42,7 +42,7 @@ const router = express.Router();
  *         name: magType
  *         schema:
  *           type: string
- *           enum: [ml, mwr, mwb, mb, mwc, mww, mrg, md, mw, mwbm, mlv, ms, mb_lg, mo]
+ *           enum: [md, ml, ms, mw, me, mi, mb, mlg]
  *         description: The magnitude type for the earthquake.
  *         required: true
  *       - in: query
